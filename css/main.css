@@ -5,6 +5,25 @@
     height: 500px;
 
 }
+.hero {
+    text-align: center;
+    display: block;
+    background: linear-gradient(to right, #7e5d2c, #2E2E2E);
+
+}
+.menu h2{
+    text-align: center;
+}
+.menu_item{
+    display:flex;
+    justify-content: center;
+ 
+}
+.item {
+    padding: 10px;
+    text-align: center;
+    
+}
 
 body{
     background: #2E2E2E	;
@@ -44,4 +63,17 @@ header , footer{
  .logo{
     display: inline;
     font-size: 150px;
+ }
+
+ .item img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+ }
+ .item img:hover{
+    transform: rotate(360deg);
+     transition: 2s ease;
+ }
+ .about{
+    text-align: center
  }
